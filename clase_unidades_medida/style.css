@@ -1,0 +1,61 @@
+body{
+	font-size: 100%;
+}
+
+.px span {
+	display: block;
+	width: 300px;
+	background-color: pink;
+	font-size: 120%;
+}
+
+.percent span{
+	display: block; 
+	width: 40%;
+		background-color: pink;
+
+}
+
+.square{
+	font-size: 150px;
+	position: relative;
+	width: 1em;
+	height: 1em;
+	background-color: yellow;
+	margin-bottom: .2em;
+}
+.square::after{
+	content: "";
+	width: .5em;
+	height: .5em;
+	background-color: green;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: .5em;
+	border-radius: 100%;
+
+}
+.mini{
+	width: .5em;
+	height: .5em;
+	background-color: red;
+}
+h1{
+	font-size: 1.5em;
+}
+a{
+	font-size: 2.5rem; /*link ni cambia de tamaño*/
+}
+
+.squareb{
+	width: 100vw;
+	height: 100vh;
+}
+
+
+
+
+
+
+

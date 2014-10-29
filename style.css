@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+*, *::after, *::before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a{
+	color: white;
+	background-color: olive;
+}
+section{
+		float: left;
+		width: 63%;	
+}
+aside{
+	float: left;
+	width: 37%;	}
+@media all and (max-width : 320px){ /*por debajo de 700px se ejecuta*/
+	.nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+	.nav__item{
+		display: inline-block;
+		width: 100%;
+		background-color: olive;
+		padding: .5em 1em;
+		text-align: center;
+		border-bottom: 1px solid white;
+	}
+}
+@media all and (min-width : 600px){
+		aside{
+			width: 100%;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
